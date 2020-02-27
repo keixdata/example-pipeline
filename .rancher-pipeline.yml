@@ -3,4 +3,4 @@ stages:
   steps:
   - runScriptConfig:
       image: node
-      shellScript: echo "Hello Danilo"
+      shellScript: echo "Hello Salvo"
