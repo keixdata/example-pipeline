@@ -4,3 +4,8 @@ stages:
   - runScriptConfig:
       image: node
       shellScript: echo "Hello Salvo"
+  when:
+    branch:
+      include:
+      - staging
+notification: {}
