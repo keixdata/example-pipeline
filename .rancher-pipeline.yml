@@ -1,0 +1,6 @@
+stages:
+- name: Build something
+  steps:
+  - runScriptConfig:
+      image: node
+      shellScript: echo "Hello World"
