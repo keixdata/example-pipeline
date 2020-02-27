@@ -3,7 +3,7 @@ stages:
   steps:
   - runScriptConfig:
       image: node
-      shellScript: echo "Hello World"
+      shellScript: printenv
   when:
     branch:
       include:
