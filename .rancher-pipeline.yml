@@ -3,9 +3,6 @@ stages:
   steps:
   - runScriptConfig:
       image: node
-      shellScript: printenv
-  when:
-    branch:
-      include:
-      - master
+      shellScript: echo "${CICD_PROJECT_ID}"
+  
 notification: {}
